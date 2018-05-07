@@ -127,4 +127,5 @@ revkod={
 #     print("Elírtál valamit, dobj be 1 dollárt és próbáld újra a sípszó után!")
 
 a=input("kérem a szöveget/kódot: ")
+if a[0]=="." or a[0]=="-":
 
