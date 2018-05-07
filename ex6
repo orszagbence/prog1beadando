@@ -125,3 +125,6 @@ revkod={
 #     print(feltort)
 # else:
 #     print("Elírtál valamit, dobj be 1 dollárt és próbáld újra a sípszó után!")
+
+a=input("kérem a szöveget/kódot: ")
+
