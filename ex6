@@ -130,3 +130,4 @@ a=input("kérem a szöveget/kódot: ")
 if a[0]=="." or a[0]=="-":
     print(feltor(a))
 else:
+    print(konvertalas(a))
