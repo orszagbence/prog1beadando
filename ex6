@@ -107,21 +107,21 @@ revkod={
 # leforditott=feltor(jeles).lower()
 # print(leforditott)
 
-a=input("mit szeretnél? (lefordítani/feltörni): ")
-if a=="lefordítani":
-    leforditani=input("kérem a lefordítani kívánt szöveget: ")
-    leforditani=leforditani.upper()
-    megoldas=""
-    for character in leforditani:
-        megoldas=megoldas+kod[character]+"|"
-    print(megoldas)
-elif a=="feltörni":
-    jelek=input("kérem a feltörni kívánt jeleket: ")
-    jelek=jelek.split(" ")
-    feltort=""
-    for char in jelek:
-        feltort+=revkod[char]
-    feltort=feltort.lower()
-    print(feltort)
-else:
-    print("Elírtál valamit, dobj be 1 dollárt és próbáld újra a sípszó után!")
+# a=input("mit szeretnél? (lefordítani/feltörni): ")
+# if a=="lefordítani":
+#     leforditani=input("kérem a lefordítani kívánt szöveget: ")
+#     leforditani=leforditani.upper()
+#     megoldas=""
+#     for character in leforditani:
+#         megoldas=megoldas+kod[character]+"|"
+#     print(megoldas)
+# elif a=="feltörni":
+#     jelek=input("kérem a feltörni kívánt jeleket: ")
+#     jelek=jelek.split(" ")
+#     feltort=""
+#     for char in jelek:
+#         feltort+=revkod[char]
+#     feltort=feltort.lower()
+#     print(feltort)
+# else:
+#     print("Elírtál valamit, dobj be 1 dollárt és próbáld újra a sípszó után!")
