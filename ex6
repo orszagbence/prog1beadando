@@ -84,21 +84,29 @@ revkod={
     '-....' : '6',
     '--...' : '7',
     '---..' : '8',
-    '----.' : '9'}
+    '----.' : '9',
+    '.----.': "'",
+    '-.--.-': '(',
+    '-.--.-': ')',
+    '--..--': ',',
+    '-....-': '-',
+    '.-.-.-': '.',
+    '-..-.': '/'
+}
 
-# def konvertalas(szoveg):
-#     szoveg=szoveg.upper()
-#     lekodolt=""
-#     for characters in szoveg:
-#         lekodolt=lekodolt+kod[characters]+"|"
-#     return lekodolt
-#
-# def feltor(jelek):
-#     jelek=jelek.split(" ")
-#     feltorni=""
-#     for char in jelek:
-#         feltorni+=revkod[char]
-#     return feltorni
+def konvertalas(szoveg):
+    szoveg=szoveg.upper()
+    lekodolt=""
+    for characters in szoveg:
+        lekodolt=lekodolt+kod[characters]+"|"
+    return lekodolt
+
+def feltor(jelek):
+    jelek=jelek.split(" ")
+    feltorni=""
+    for char in jelek:
+        feltorni+=revkod[char]
+    return feltorni
 
 # leforditani=input("kérem a lefordítani kívánt szöveget: ")
 # lekodolt=konvertalas(leforditani)
