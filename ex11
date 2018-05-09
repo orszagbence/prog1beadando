@@ -4,5 +4,6 @@ for i in range(100,1000):
         szam=i*j
         if str(szam)==str(szam)[::-1]:
             if max_pal<szam:
-            max_pal=szam
+                max_pal=szam
+                print(i,j)
 print(max_pal)
